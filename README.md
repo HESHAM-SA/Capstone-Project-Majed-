@@ -64,7 +64,7 @@ Now we have two ready models:
 **Results for the face detection model:**
 - Comparison between three different methods for training the classification model.
 <img src= "D:\SDAIA_BootCamp\Projects\CapSton_Project\Capstone_Project_(Majed)\images_for_readme_file\Comparison against the baseline keras.png"/>
-![Comparison against the baseline Keras]("images_for_readme_file/Comparison against the baseline keras.png")
+![Comparison against the baseline Keras](r"D:\SDAIA_BootCamp\Projects\CapSton_Project\Capstone_Project_(Majed)\images_for_readme_file\Comparison against the baseline keras.png")
 
 
 #### Tools Used
