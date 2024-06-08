@@ -59,12 +59,12 @@ Now we have two ready models:
 - A model for face detection.
 - A model for classification and face recognition.
 
-#### Results
+#### Results![Comparison against the baseline keras](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7)
+
 
 **Results for the face detection model:**
 - Comparison between three different methods for training the classification model.
-<img src= "D:\SDAIA_BootCamp\Projects\CapSton_Project\Capstone_Project_(Majed)\images_for_readme_file\Comparison against the baseline keras.png"/>
-![Alt Comparison against the baseline Keras]("D:/SDAIA_BootCamp/Projects/CapSton_Project/Capstone_Project_(Majed)/images_for_readme_file/Comparison against the baseline keras.png")
+
 
 
 #### Tools Used
