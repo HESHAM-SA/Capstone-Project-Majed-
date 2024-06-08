@@ -64,6 +64,7 @@ Now we have two ready models:
 **Results for the face detection model:**
 - Comparison between three different methods for training the classification model.
 ![Comparison ](D:\SDAIA_BootCamp\Projects\CapSton_Project\Comparison against the baseline keras.png)
+<img src= "D:\SDAIA_BootCamp\Projects\CapSton_Project\Comparison against the baseline keras.png"/>
 
 #### Tools Used
 
