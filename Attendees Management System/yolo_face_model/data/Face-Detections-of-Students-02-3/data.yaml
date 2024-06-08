@@ -1,0 +1,13 @@
+path: /mnt/d/SDAIA_BootCamp/Projects/CapSton_Project/try_to_sft/Face-Detections-of-Students-02-3
+test: /mnt/d/SDAIA_BootCamp/Projects/CapSton_Project/try_to_sft/Face-Detections-of-Students-02-3/test/images
+train: /mnt/d/SDAIA_BootCamp/Projects/CapSton_Project/try_to_sft/Face-Detections-of-Students-02-3/train/images
+val: /mnt/d/SDAIA_BootCamp/Projects/CapSton_Project/try_to_sft/Face-Detections-of-Students-02-3/valid/images
+names:
+  0: Face
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: face-detections-of-students-02
+  url: https://universe.roboflow.com/attendees/face-detections-of-students-02/dataset/3
+  version: 3
+  workspace: attendees
