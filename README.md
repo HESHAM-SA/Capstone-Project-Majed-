@@ -12,7 +12,7 @@ Our project includes three systems:
    2. Rkkez
    3. Fahem
 
-### Hather
+## Hather
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/19c44f09-d615-423c-9e84-12d36f71efec" alt="Screenshot 2024-06-09 005923" width="500">
 
 
@@ -71,11 +71,13 @@ Now we have two ready models:
 
 
 Results for the face detection model:
+
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="PR_curve_yolo" width="500">
 
 
 
 Comparison between three different methods for training the classification model: 
+
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Comparison against the baseline keras" width="500">
 
 
@@ -86,7 +88,7 @@ Comparison between three different methods for training the classification model
    - Keras library
    - Roboflow website
 
-### Rkkez
+## Rkkez
 
 #### About the System
 
@@ -104,7 +106,7 @@ Comparison between three different methods for training the classification model
    - Detection of eye closure duration.
    - Calculation of focus scores.
 
-### Fahem
+## Fahem
 
 #### About the System
 
