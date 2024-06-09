@@ -74,6 +74,10 @@ After the initial setup, administrators only need to upload videos for the syste
 - Eye closure duration detection.
 - Focus score calculation.
 
+**Tools Used:**
+![image](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/38815154-70b1-4e9f-ae88-44fe99cd842e)
+
+## Future Work
 ### 3. Fahem
 
 "Fahem" enhances interactive learning by allowing students to study materials with their favorite characters in both voice and image formats, making learning more engaging and enjoyable.
