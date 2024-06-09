@@ -7,9 +7,11 @@
 ## Systems Overview
 
 ### 1. Hather
+"Hather" automates student attendance using facial recognition technology. When a student enters the classroom, their face is recognized, and their attendance is recorded automatically.
+
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/19c44f09-d615-423c-9e84-12d36f71efec" alt="Hather system screenshot" width="500">
 
-"Hather" automates student attendance using facial recognition technology. When a student enters the classroom, their face is recognized, and their attendance is recorded automatically.
+
 
 #### How It Works
 ![Hather System Diagram](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/deef738f-3af8-404c-bd76-98b72611d837)
@@ -77,16 +79,3 @@ After the initial setup, administrators only need to upload videos for the syste
 "Fahem" enhances interactive learning by allowing students to study materials with their favorite characters in both voice and image formats, making learning more engaging and enjoyable.
 
 ---
-
-### Image Formats and Resolutions
-
-- **Format:** PNG
-- **Bits Per Pixel:** 32
-- **Color:** Truecolor with alpha
-- **Dimensions:** Various (e.g., 1431x954, 691x470, 727x334)
-- **Interlaced:** Yes
-- **XResolution:** Various (e.g., 220, 100, 96)
-- **YResolution:** Various (e.g., 220, 100, 96)
-
-**Software for Image Generation:**
-- **Matplotlib version:** 3.9.0 [Matplotlib](https://matplotlib.org/)
