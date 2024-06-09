@@ -30,29 +30,27 @@ After the initial setup, the system will automates student attendance throughout
 <br>
 
 ### Technical Details:
-<br>
 
- **Data Collection and Processing:**
+ 1. **Data Collection and Processing:**
   1. *YOLO Training Data:*
-   - Images were collected from video frames of students in Saudi schools.
-   - Face annotations were done using Roboflow.
+    - Images were collected from video frames of students in Saudi schools.
+    - Face annotations were done using Roboflow.
  
  2. *Keras Training Data:*
-   - Collected over 1200 images per person, classified into 20 folders.
-   - Data was cleaned to ensure consistency.
-   - YOLO detected and cropped face images, which were then standardized and saved.
+    - Collected over 1200 images per person, classified into 20 folders.
+    - Data was cleaned to ensure consistency.
+    - YOLO detected and cropped face images, which were then standardized and saved.
  
- <br>
 
- **Model Development:**
- 1. *YOLO Fine-tuning:*
-    - The model, trained on over 33,000 face images, was fine-tuned with local data.
+ 2. **Model Development:**
+  1. *YOLO Fine-tuning:*
+     - The model, trained on over 33,000 face images, was fine-tuned with local data.
  
- 2. *Keras Classification Model:*
-    - Three approaches to enhance accuracy:
-      1. Train a baseline model (EfficientNetV2) with supervised learning.
-      2. Train a self-supervised model using augmentation techniques.
-      3. Fine-tune the model with labeled data.
+  2. *Keras Classification Model:*
+     - Three approaches to enhance accuracy:
+       1. Train a baseline model (EfficientNetV2) with supervised learning.
+       2. Train a self-supervised model using augmentation techniques.
+       3. Fine-tune the model with labeled data.
 
 <br>
 
