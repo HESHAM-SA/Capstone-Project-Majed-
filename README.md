@@ -95,6 +95,6 @@ After the initial setup, the system will automates student attendance throughout
 ---------------------------------------
 
 ## Future Work
-## 3. Fahem
+### 3. Fahem
 
 "Fahem" enhances interactive learning by allowing students to study materials with their favorite characters in both voice and image formats, making learning more engaging and enjoyable.
