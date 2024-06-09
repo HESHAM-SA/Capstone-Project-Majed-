@@ -37,7 +37,7 @@ After the initial setup, the system will automates student attendance throughout
          - Face annotations were done using Roboflow.
  
      2. *Keras Training Data:*
-        - Collected over 1200 images per person, classified into 20 folders.
+        - Collected over 1200 images of persons, classified into 20 folders.
         - Data was cleaned to ensure consistency.
         - YOLO detected and cropped face images, which were then standardized and saved.
  
