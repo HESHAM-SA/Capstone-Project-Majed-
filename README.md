@@ -9,10 +9,12 @@ Our project is in the education sector and we named it "Majed," representing the
 Our project includes three systems:
 
 1. Hather
-2. Rakez
+2. Rkkez
 3. Fahem
 
 ### Hather
+![Screenshot 2024-06-09 005923](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/19c44f09-d615-423c-9e84-12d36f71efec)
+
 
 "Hather" is a system that contributes to automating routine tasks in the education sector. It performs automatic attendance for students; as soon as a student enters the classroom, their face is recognized, and their name is recorded in the attendance log automatically.
 
