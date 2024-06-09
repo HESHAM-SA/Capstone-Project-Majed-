@@ -68,20 +68,21 @@ After the initial setup, the system will automates student attendance throughout
 - Calculates a focus score based on eye position analysis.
 
 #### Main Components:
-
-<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/8aaf4fdd-4d26-4f6f-a906-94a73ecd5e49" alt="Rkkez System Diagram" width="800">
-  
 - Eye and iris feature detection.
 - Eye closure duration detection.
 - Focus score calculation.
 
+<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/8aaf4fdd-4d26-4f6f-a906-94a73ecd5e49" alt="Rkkez System Diagram" width="800">
+  
+
+
 **Tools Used:**
 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/38815154-70b1-4e9f-ae88-44fe99cd842e" alt="Tools used" width="800">
------------------------
+
+---------------------------------------
+
 ## Future Work
 ### 3. Fahem
 
 "Fahem" enhances interactive learning by allowing students to study materials with their favorite characters in both voice and image formats, making learning more engaging and enjoyable.
-
----
