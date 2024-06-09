@@ -93,6 +93,7 @@ Comparison between three different methods for training the classification model
 "Rkkez" is designed to improve concentration and productivity, especially in environments where focus is critical, such as classrooms and remote virtual classes. This system uses advanced computer vision techniques to monitor eye movements and calculate a "focus score."
 
 #### How it Works
+![image](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/71925cff-0dbb-4740-9b53-408e3c3146bc)
 
 - Our system uses the computer camera to monitor the user's eye movements, detecting if the user is looking at the screen, to the side, or has closed eyes.
 - By analyzing these eye positions, the system calculates the focus score, indicating the user's level of concentration.
