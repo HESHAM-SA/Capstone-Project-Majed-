@@ -16,11 +16,12 @@
 #### How It Works: 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/deef738f-3af8-404c-bd76-98b72611d837" alt="Hather System Diagram" width="800">
 
+
 #### Setup and Usage
 1. Upload a video of the students to the system, and The system classifies the students' pictures into folders.
 2. Name the folders with the students' names.
-
 After the initial setup, the system will automates student attendance throughout the year.
+
 
 ### Technical Details
 
@@ -33,6 +34,7 @@ After the initial setup, the system will automates student attendance throughout
   - Collected over 1200 images per person, classified into 20 folders.
   - Data was cleaned to ensure consistency.
   - YOLO detected and cropped face images, which were then standardized and saved.
+
 
 **Model Development:**
 1. *YOLO Fine-tuning:*
