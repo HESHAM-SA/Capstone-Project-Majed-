@@ -43,14 +43,15 @@ After the initial setup, the system will automates student attendance throughout
  
 
  2. **Model Development:**
-  1. *YOLO Fine-tuning:*
-     - The model, trained on over 33,000 face images, was fine-tuned with local data.
+     
+     1. *YOLO Fine-tuning:*
+        - The model, trained on over 33,000 face images, was fine-tuned with local data.
  
-  2. *Keras Classification Model:*
-     - Three approaches to enhance accuracy:
-       1. Train a baseline model (EfficientNetV2) with supervised learning.
-       2. Train a self-supervised model using augmentation techniques.
-       3. Fine-tune the model with labeled data.
+     2. *Keras Classification Model:*
+        - Three approaches to enhance accuracy:
+         1. Train a baseline model (EfficientNetV2) with supervised learning.
+         2. Train a self-supervised model using augmentation techniques.
+         3. Fine-tune the model with labeled data.
 
 <br>
 
