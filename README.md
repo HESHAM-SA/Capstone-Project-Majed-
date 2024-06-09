@@ -28,17 +28,17 @@ After the initial setup, the administration only needs to upload the video, and 
 
 ### Data
 
-**Data for training YOLO:**
+*Data for training YOLO:*
 - Images of students were collected by taking video frames of students in Saudi schools.
 - Annotations of faces were done using the Roboflow website.
 
-**Data for training Keras:**
-1. **Data Collection:**
+*Data for training Keras:*
+1. *Data Collection:*
    - More than 1200 images of a person were collected.
    - They were classified into 20 folders to create a classification among 20 people.
    - The data was cleaned to ensure the images were of the same person.
 
-2. **Data Processing:**
+2. *Data Processing:*
    - The YOLO model was used to detect faces.
    - Only the face images were cropped.
    - Image dimensions were standardized.
@@ -67,6 +67,7 @@ Now we have two ready models:
 Results for the face detection model:
 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="PR_curve_yolo" width="500">
+
 - Comparison between three different methods for training the classification model.
 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Comparison against the baseline keras" width="500">
