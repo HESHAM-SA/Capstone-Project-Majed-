@@ -57,7 +57,7 @@ After the initial setup, the system will automates student attendance throughout
   - YOLO
   - Keras
   - Roboflow
-
+---------------------------
 ### 2. Rkkez
 
 "Rkkez" aims to enhance concentration and productivity, particularly in classrooms and virtual learning environments, by monitoring eye movements and calculating a focus score.
@@ -71,14 +71,14 @@ After the initial setup, the system will automates student attendance throughout
 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/8aaf4fdd-4d26-4f6f-a906-94a73ecd5e49" alt="Rkkez System Diagram" width="800">
   
-  - Eye and iris feature detection.
-  - Eye closure duration detection.
-  - Focus score calculation.
+- Eye and iris feature detection.
+- Eye closure duration detection.
+- Focus score calculation.
 
 **Tools Used:**
 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/38815154-70b1-4e9f-ae88-44fe99cd842e" alt="Tools used" width="800">
-
+-----------------------
 ## Future Work
 ### 3. Fahem
 
