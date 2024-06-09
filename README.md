@@ -74,7 +74,8 @@ After the initial setup, the system will automates student attendance throughout
 
 
 ### Demo:
-https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/6ae48eed-9189-463a-ad4f-24f7d87fc321
+https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/2c3e6b90-7c14-4999-8cea-e56f9606f398
+
 
 
 ---------------------------
