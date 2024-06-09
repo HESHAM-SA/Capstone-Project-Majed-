@@ -8,19 +8,20 @@ Our project is in the education sector and we named it "Majed," representing the
 
 Our project includes three systems:
 
-1. Hather
-2. Rkkez
-3. Fahem
+   1. Hather
+   2. Rkkez
+   3. Fahem
 
 ### Hather
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/19c44f09-d615-423c-9e84-12d36f71efec" alt="Screenshot 2024-06-09 005923" width="500">
 
 
 "Hather" is a system that contributes to automating routine tasks in the education sector. It performs automatic attendance for students; as soon as a student enters the classroom, their face is recognized, and their name is recorded in the attendance log automatically.
+
 ### How To Use it :
 #### First Day Setup
-- Upload a video of the students to the system which will classify the students' pictures into folders.
-- Name the folders with the students' names.
+   - Upload a video of the students to the system which will classify the students' pictures into folders.
+   - Name the folders with the students' names.
 
 After the initial setup, the administration only needs to upload the video, and the system will handle attendance throughout the year.
 
@@ -29,8 +30,8 @@ After the initial setup, the administration only needs to upload the video, and 
 ### Data
 
 *Data for training YOLO:*
-- Images of students were collected by taking video frames of students in Saudi schools.
-- Annotations of faces were done using the Roboflow website.
+   - Images of students were collected by taking video frames of students in Saudi schools.
+   - Annotations of faces were done using the Roboflow website.
 
 *Data for training Keras:*
 1. *Data Collection:*
@@ -49,17 +50,17 @@ Now the data is ready for training.
 ### Model
 
 1. *Fine-tuning YOLO model:*
-- A YOLO model trained on more than 33000 face images was fine-tuned with local data to increase accuracy.
+   - A YOLO model trained on more than 33000 face images was fine-tuned with local data to increase accuracy.
 
 2. *Building a classification model and feature extraction using the Keras library:*
-- The model's accuracy was improved and measured in three steps:
-  1. Train a baseline model (EfficientNetV2) with supervised learning on the collected data.
-  2. Train a self-supervised model by performing augmentation trying to bring feature vectors of the same image closer using cosine similarity and SimCLR loss function.
-  3. Fine-tune the previous model with labeled data or supervised learning.
+   - We enhance our model's accuracy through three approaches
+      1. Train a baseline model (EfficientNetV2) with supervised learning on the collected data.
+      2. Train a self-supervised model by performing augmentation trying to bring feature vectors of the same image closer using cosine similarity and SimCLR loss function.
+      3. Fine-tune the previous model with labeled data or supervised learning.
 
 Now we have two ready models:
-- A model for face detection.
-- A model for classification and face recognition.
+   - A model for face detection.
+   - A model for classification and face recognition.
 
 #### Results
 
@@ -67,6 +68,7 @@ Now we have two ready models:
 Results for the face detection model:
 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="PR_curve_yolo" width="500">
+
 
 Comparison between three different methods for training the classification model: 
 
@@ -76,9 +78,9 @@ Comparison between three different methods for training the classification model
 
 #### Tools Used
 
-- YOLO
-- Keras library
-- Roboflow website
+   - YOLO
+   - Keras library
+   - Roboflow website
 
 ### Rakez
 
