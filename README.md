@@ -18,12 +18,11 @@
 
 #### Setup and Usage
 **First Day Setup:**
-1. Upload a video of the students to the system.
-2. The system classifies the students' pictures into folders.
-3. Name the folders with the students' names.
+1. Upload a video of the students to the system, and The system classifies the students' pictures into folders.
+2. Name the folders with the students' names.
 
 **Ongoing Use:**
-After the initial setup, administrators only need to upload videos for the system to handle attendance automatically throughout the year.
+After the initial setup, the system will attendance automatically throughout the year.
 
 #### Technical Details
 
