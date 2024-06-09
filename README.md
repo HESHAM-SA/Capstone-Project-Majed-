@@ -36,10 +36,10 @@ After the initial setup, the system will automates student attendance throughout
          - Images were collected from video frames of students in Saudi schools.
          - Face annotations were done using Roboflow.
  
- 3. *Keras Training Data:*
-    - Collected over 1200 images per person, classified into 20 folders.
-    - Data was cleaned to ensure consistency.
-    - YOLO detected and cropped face images, which were then standardized and saved.
+     2. *Keras Training Data:*
+        - Collected over 1200 images per person, classified into 20 folders.
+        - Data was cleaned to ensure consistency.
+        - YOLO detected and cropped face images, which were then standardized and saved.
  
 
  2. **Model Development:**
