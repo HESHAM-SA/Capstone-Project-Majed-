@@ -48,10 +48,10 @@ Now the data is ready for training.
 
 ### Model
 
-**Fine-tuning YOLO model:**
+1. *Fine-tuning YOLO model:*
 - A YOLO model trained on more than 33000 face images was fine-tuned with local data to increase accuracy.
 
-**Building a classification model and feature extraction using the Keras library:**
+2. *Building a classification model and feature extraction using the Keras library:*
 - The model's accuracy was improved and measured in three steps:
   1. Train a baseline model (EfficientNetV2) with supervised learning on the collected data.
   2. Train a self-supervised model by performing augmentation trying to bring feature vectors of the same image closer using cosine similarity and SimCLR loss function.
@@ -68,7 +68,7 @@ Results for the face detection model:
 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="PR_curve_yolo" width="500">
 
-- Comparison between three different methods for training the classification model.
+Comparison between three different methods for training the classification model: 
 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Comparison against the baseline keras" width="500">
 
