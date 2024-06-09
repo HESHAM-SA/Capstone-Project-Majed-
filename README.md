@@ -81,7 +81,7 @@ https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/2c3e6b90-7c
 ---------------------------
 ## 2. Rkkez
 
-"Rkkez" aims to enhance concentration and productivity, particularly in classrooms and virtual learning environments, by monitoring eye movements and calculating a focus score.
+"Rkkez" aims to enhance concentration and productivity, particularly in virtual learning environments, by monitoring eye movements and calculating a focus score.
 
 #### How It Works:
 - Uses a computer camera to track eye movements.
@@ -118,4 +118,4 @@ https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/4175eff6-4c
 ## Future Work
 ### 3. Fahem
 
-"Fahem" enhances interactive learning by allowing students to study materials with their favorite characters in both voice and image formats, making learning more engaging and enjoyable.
+"Fahem" enhances personalized learning by enabling students to study materials with the assistance of their favorite characters. Using AI, it incorporates voice prints and deepfake techniques for character faces, making learning more engaging and enjoyable.
