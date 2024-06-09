@@ -32,10 +32,9 @@ After the initial setup, the system will automates student attendance throughout
 ### Technical Details:
 
  1. **Data Collection and Processing:**
-     1. jkfjkdj
-  . *YOLO Training Data:*
-    - Images were collected from video frames of students in Saudi schools.
-    - Face annotations were done using Roboflow.
+     1.  *YOLO Training Data:*
+         - Images were collected from video frames of students in Saudi schools.
+         - Face annotations were done using Roboflow.
  
  3. *Keras Training Data:*
     - Collected over 1200 images per person, classified into 20 folders.
