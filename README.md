@@ -71,12 +71,12 @@ Now we have two ready models:
 
 
 Results for the face detection model:
-   <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="PR_curve_yolo" width="500">
+<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="PR_curve_yolo" width="500">
 
 
 
 Comparison between three different methods for training the classification model: 
-   <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Comparison against the baseline keras" width="500">
+<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Comparison against the baseline keras" width="500">
 
 
 
@@ -93,16 +93,16 @@ Comparison between three different methods for training the classification model
 "Rkkez" is designed to improve concentration and productivity, especially in environments where focus is critical, such as classrooms and remote virtual classes. This system uses advanced computer vision techniques to monitor eye movements and calculate a "focus score."
 
 #### How it Works
-![image](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/71925cff-0dbb-4740-9b53-408e3c3146bc)
 
-- Our system uses the computer camera to monitor the user's eye movements, detecting if the user is looking at the screen, to the side, or has closed eyes.
-- By analyzing these eye positions, the system calculates the focus score, indicating the user's level of concentration.
+   - Our system uses the computer camera to monitor the user's eye movements, detecting if the user is looking at the screen, to the side, or has closed eyes.
+   - By analyzing these eye positions, the system calculates the focus score, indicating the user's level of concentration.
 
 #### Main Components and How They Work
+![image](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/8aaf4fdd-4d26-4f6f-a906-94a73ecd5e49)
 
-- Eye and iris feature detection.
-- Detection of eye closure duration.
-- Calculation of focus scores.
+   - Eye and iris feature detection.
+   - Detection of eye closure duration.
+   - Calculation of focus scores.
 
 ### Fahem
 
