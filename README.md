@@ -74,7 +74,7 @@ After the initial setup, the system will automates student attendance throughout
 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/8aaf4fdd-4d26-4f6f-a906-94a73ecd5e49" alt="Rkkez System Diagram" width="800">
   
-
+<tap>
 
 **Tools Used:**
 
