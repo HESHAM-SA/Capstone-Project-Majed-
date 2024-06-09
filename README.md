@@ -21,10 +21,9 @@
 1. Upload a video of the students to the system, and The system classifies the students' pictures into folders.
 2. Name the folders with the students' names.
 
-**Ongoing Use:**
-After the initial setup, the system will attendance automatically throughout the year.
+After the initial setup, the system will automates student attendance throughout the year.
 
-#### Technical Details
+### Technical Details
 
 **Data Collection and Processing:**
 - **YOLO Training Data:**
@@ -48,9 +47,11 @@ After the initial setup, the system will attendance automatically throughout the
 
 **Results:**
 - **Face Detection Model:**
+  
   <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="YOLO PR curve" width="500">
 
 - **Classification Model Comparison:**
+  
   <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Model comparison" width="500">
 
 **Tools Used:**
