@@ -30,6 +30,7 @@ After the initial setup, the system will automates student attendance throughout
 <br>
 
 ### Technical Details:
+<br>
 
  **Data Collection and Processing:**
   1. *YOLO Training Data:*
@@ -41,7 +42,8 @@ After the initial setup, the system will automates student attendance throughout
    - Data was cleaned to ensure consistency.
    - YOLO detected and cropped face images, which were then standardized and saved.
  
- 
+ <br>
+
  **Model Development:**
  1. *YOLO Fine-tuning:*
     - The model, trained on over 33,000 face images, was fine-tuned with local data.
