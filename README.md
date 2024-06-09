@@ -49,9 +49,9 @@ After the initial setup, the system will automates student attendance throughout
  
      2. *Keras Classification Model:*
         - Three approaches to enhance accuracy:
-         1. Train a baseline model (EfficientNetV2) with supervised learning.
-         2. Train a self-supervised model using augmentation techniques.
-         3. Fine-tune the model with labeled data.
+           1. Train a baseline model (EfficientNetV2) with supervised learning.
+           2. Train a self-supervised model using augmentation techniques.
+           3. Fine-tune the model with labeled data.
 
 <br>
 
