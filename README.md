@@ -54,7 +54,7 @@ After the initial setup, the system will automates student attendance throughout
 
 <br>
 
-**Results:**
+### **Results:**
 - **Face Detection Model:**
   
   <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="YOLO PR curve" width="800">
@@ -63,7 +63,7 @@ After the initial setup, the system will automates student attendance throughout
   
   <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Model comparison" width="800">
 
-**Tools Used:**
+### **Tools Used:**
   - YOLO
   - Keras
   - Roboflow
