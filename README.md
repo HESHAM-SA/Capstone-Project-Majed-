@@ -6,21 +6,21 @@
 
 ## Systems Overview
 
-### 1. Hather
+## 1. Hather
 "Hather" automates student attendance using facial recognition technology. When a student enters the classroom, their face is recognized, and their attendance is recorded automatically.
 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/19c44f09-d615-423c-9e84-12d36f71efec" alt="Hather system screenshot" width="800">
 
 <br>
 
-#### How It Works: 
+### How It Works: 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/deef738f-3af8-404c-bd76-98b72611d837" alt="Hather System Diagram" width="800">
 
 <br>
 
 <br>
 
-#### Setup and Usage:
+### Setup and Usage:
  1. Upload a video of the students to the system, and The system classifies the students' pictures into folders.
  2. Name the folders with the students' names.
 After the initial setup, the system will automates student attendance throughout the year.
@@ -68,7 +68,7 @@ After the initial setup, the system will automates student attendance throughout
   - Keras
   - Roboflow
 ---------------------------
-### 2. Rkkez
+## 2. Rkkez
 
 "Rkkez" aims to enhance concentration and productivity, particularly in classrooms and virtual learning environments, by monitoring eye movements and calculating a focus score.
 
@@ -93,6 +93,6 @@ After the initial setup, the system will automates student attendance throughout
 ---------------------------------------
 
 ## Future Work
-### 3. Fahem
+## 3. Fahem
 
 "Fahem" enhances interactive learning by allowing students to study materials with their favorite characters in both voice and image formats, making learning more engaging and enjoyable.
