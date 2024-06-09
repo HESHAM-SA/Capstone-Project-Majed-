@@ -16,13 +16,16 @@
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/deef738f-3af8-404c-bd76-98b72611d837" alt="Hather System Diagram" width="800">
 
 <br>
+
 #### Setup and Usage
 1. Upload a video of the students to the system, and The system classifies the students' pictures into folders.
 2. Name the folders with the students' names.
 After the initial setup, the system will automates student attendance throughout the year.
+
 <br>
 
 <br>
+
 ### Technical Details
 
 **Data Collection and Processing:**
@@ -45,6 +48,7 @@ After the initial setup, the system will automates student attendance throughout
      1. Train a baseline model (EfficientNetV2) with supervised learning.
      2. Train a self-supervised model using augmentation techniques.
      3. Fine-tune the model with labeled data.
+
 <br>
 
 **Results:**
