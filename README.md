@@ -17,14 +17,14 @@ Our project includes three systems:
 
 
 "Hather" is a system that contributes to automating routine tasks in the education sector. It performs automatic attendance for students; as soon as a student enters the classroom, their face is recognized, and their name is recorded in the attendance log automatically.
-#### How To Use it :
-### First Day Setup
+# How To Use it :
+## First Day Setup
 - Upload a video of the students to the system which will classify the students' pictures into folders.
 - Name the folders with the students' names.
 
 After the initial setup, the administration only needs to upload the video, and the system will handle attendance throughout the year.
 
-#### Technical Part
+# Technical Part
 
 ## Data
 
