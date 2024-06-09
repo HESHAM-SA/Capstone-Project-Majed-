@@ -18,6 +18,11 @@ Our project includes three systems:
 
 "Hather" is a system that contributes to automating routine tasks in the education sector. It performs automatic attendance for students; as soon as a student enters the classroom, their face is recognized, and their name is recorded in the attendance log automatically.
 
+
+#### How it Works
+![image](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/deef738f-3af8-404c-bd76-98b72611d837)
+
+
 ### How To Use it :
 #### First Day Setup
    - Upload a video of the students to the system which will classify the students' pictures into folders.
@@ -53,7 +58,7 @@ Now the data is ready for training.
    - A YOLO model trained on more than 33000 face images was fine-tuned with local data to increase accuracy.
 
 2. *Building a classification model and feature extraction using the Keras library:*
-   - We enhance our model's accuracy through three approaches
+   - We enhance our model's accuracy through three approaches:
       1. Train a baseline model (EfficientNetV2) with supervised learning on the collected data.
       2. Train a self-supervised model by performing augmentation trying to bring feature vectors of the same image closer using cosine similarity and SimCLR loss function.
       3. Fine-tune the previous model with labeled data or supervised learning.
@@ -66,13 +71,12 @@ Now we have two ready models:
 
 
 Results for the face detection model:
+   <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="PR_curve_yolo" width="500">
 
-<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="PR_curve_yolo" width="500">
 
 
 Comparison between three different methods for training the classification model: 
-
-<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Comparison against the baseline keras" width="500">
+   <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Comparison against the baseline keras" width="500">
 
 
 
@@ -82,11 +86,11 @@ Comparison between three different methods for training the classification model
    - Keras library
    - Roboflow website
 
-### Rakez
+### Rkkez
 
 #### About the System
 
-"Rakez" is designed to improve concentration and productivity, especially in environments where focus is critical, such as classrooms and remote virtual classes. This system uses advanced computer vision techniques to monitor eye movements and calculate a "focus score."
+"Rkkez" is designed to improve concentration and productivity, especially in environments where focus is critical, such as classrooms and remote virtual classes. This system uses advanced computer vision techniques to monitor eye movements and calculate a "focus score."
 
 #### How it Works
 
