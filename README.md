@@ -12,18 +12,18 @@
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/19c44f09-d615-423c-9e84-12d36f71efec" alt="Hather system screenshot" width="800">
 
 
-
+<br>
 #### How It Works: 
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/deef738f-3af8-404c-bd76-98b72611d837" alt="Hather System Diagram" width="800">
+<br>
 
 
 #### Setup and Usage
 1. Upload a video of the students to the system, and The system classifies the students' pictures into folders.
 2. Name the folders with the students' names.
 After the initial setup, the system will automates student attendance throughout the year.
+
 <br>
-
-
 ### Technical Details
 
 **Data Collection and Processing:**
