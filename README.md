@@ -64,7 +64,8 @@ Now we have two ready models:
 #### Results
 
 
-**Results for the face detection model:**
+Results for the face detection model:
+![PR_curve_yolo](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1)
 - Comparison between three different methods for training the classification model.
 ![Comparison against the baseline keras](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7)
 
