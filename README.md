@@ -1,128 +1,92 @@
 # Majed
 
-## Story
+## Overview
 
-Our project is in the education sector and we named it "Majed," representing the student whom our systems and the education ecosystem serve either directly or indirectly.
+"Majed" is an education sector project designed to enhance the educational experience for students. The project comprises three integrated systems: Hather, Rkkez, and Fahem.
 
-## Introduction
+## Systems Overview
 
-Our project includes three systems:
+### 1. Hather
+<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/19c44f09-d615-423c-9e84-12d36f71efec" alt="Hather system screenshot" width="500">
 
-   1. Hather
-   2. Rkkez
-   3. Fahem
+"Hather" automates student attendance using facial recognition technology. When a student enters the classroom, their face is recognized, and their attendance is recorded automatically.
 
-## Hather
-<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/19c44f09-d615-423c-9e84-12d36f71efec" alt="Screenshot 2024-06-09 005923" width="500">
+#### How It Works
+![Hather System Diagram](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/deef738f-3af8-404c-bd76-98b72611d837)
 
+#### Setup and Usage
+**First Day Setup:**
+1. Upload a video of the students to the system.
+2. The system classifies the students' pictures into folders.
+3. Name the folders with the students' names.
 
-"Hather" is a system that contributes to automating routine tasks in the education sector. It performs automatic attendance for students; as soon as a student enters the classroom, their face is recognized, and their name is recorded in the attendance log automatically.
+**Ongoing Use:**
+After the initial setup, administrators only need to upload videos for the system to handle attendance automatically throughout the year.
 
+#### Technical Details
 
-#### How it Works
-![image](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/deef738f-3af8-404c-bd76-98b72611d837)
+**Data Collection and Processing:**
+- **YOLO Training Data:**
+  - Images were collected from video frames of students in Saudi schools.
+  - Face annotations were done using Roboflow.
 
+- **Keras Training Data:**
+  - Collected over 1200 images per person, classified into 20 folders.
+  - Data was cleaned to ensure consistency.
+  - YOLO detected and cropped face images, which were then standardized and saved.
 
-### How To Use it :
-#### First Day Setup
-   - Upload a video of the students to the system which will classify the students' pictures into folders.
-   - Name the folders with the students' names.
+**Model Development:**
+1. **YOLO Fine-tuning:**
+   - The model, trained on over 33,000 face images, was fine-tuned with local data.
 
-After the initial setup, the administration only needs to upload the video, and the system will handle attendance throughout the year.
+2. **Keras Classification Model:**
+   - Three approaches to enhance accuracy:
+     1. Train a baseline model (EfficientNetV2) with supervised learning.
+     2. Train a self-supervised model using augmentation techniques.
+     3. Fine-tune the model with labeled data.
 
-## Technical Part
+**Results:**
+- **Face Detection Model:**
+  <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="YOLO PR curve" width="500">
 
-### Data
+- **Classification Model Comparison:**
+  <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Model comparison" width="500">
 
-*Data for training YOLO:*
-   - Images of students were collected by taking video frames of students in Saudi schools.
-   - Annotations of faces were done using the Roboflow website.
+**Tools Used:**
+- YOLO
+- Keras
+- Roboflow
 
-*Data for training Keras:*
-1. *Data Collection:*
-   - More than 1200 images of a person were collected.
-   - They were classified into 20 folders to create a classification among 20 people.
-   - The data was cleaned to ensure the images were of the same person.
+### 2. Rkkez
 
-2. *Data Processing:*
-   - The YOLO model was used to detect faces.
-   - Only the face images were cropped.
-   - Image dimensions were standardized.
-   - They were saved in new folders with the persons' names.
+"Rkkez" aims to enhance concentration and productivity, particularly in classrooms and virtual learning environments, by monitoring eye movements and calculating a focus score.
 
-Now the data is ready for training.
+#### How It Works
+- Uses a computer camera to track eye movements.
+- Detects if the user is looking at the screen, to the side, or has closed eyes.
+- Calculates a focus score based on eye position analysis.
 
-### Model
+#### Main Components
+![Rkkez System Diagram](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/8aaf4fdd-4d26-4f6f-a906-94a73ecd5e49)
+- Eye and iris feature detection.
+- Eye closure duration detection.
+- Focus score calculation.
 
-1. *Fine-tuning YOLO model:*
-   - A YOLO model trained on more than 33000 face images was fine-tuned with local data to increase accuracy.
+### 3. Fahem
 
-2. *Building a classification model and feature extraction using the Keras library:*
-   - We enhance our model's accuracy through three approaches:
-      1. Train a baseline model (EfficientNetV2) with supervised learning on the collected data.
-      2. Train a self-supervised model by performing augmentation trying to bring feature vectors of the same image closer using cosine similarity and SimCLR loss function.
-      3. Fine-tune the previous model with labeled data or supervised learning.
-
-Now we have two ready models:
-   - A model for face detection.
-   - A model for classification and face recognition.
-
-#### Results
-
-
-Results for the face detection model:
-
-<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="PR_curve_yolo" width="500">
-
-
-
-Comparison between three different methods for training the classification model: 
-
-<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Comparison against the baseline keras" width="500">
-
-
-
-#### Tools Used
-
-   - YOLO
-   - Keras library
-   - Roboflow website
-
-## Rkkez
-
-#### About the System
-
-"Rkkez" is designed to improve concentration and productivity, especially in environments where focus is critical, such as classrooms and remote virtual classes. This system uses advanced computer vision techniques to monitor eye movements and calculate a "focus score."
-
-#### How it Works
-
-   - Our system uses the computer camera to monitor the user's eye movements, detecting if the user is looking at the screen, to the side, or has closed eyes.
-   - By analyzing these eye positions, the system calculates the focus score, indicating the user's level of concentration.
-
-#### Main Components and How They Work
-![image](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/8aaf4fdd-4d26-4f6f-a906-94a73ecd5e49)
-
-   - Eye and iris feature detection.
-   - Detection of eye closure duration.
-   - Calculation of focus scores.
-
-## Fahem
-
-#### About the System
-
-"Fahem" is designed to enhance interactive learning by enabling students to study materials with their favorite characters both in voice and image. This approach motivates students and makes studying more enjoyable.
+"Fahem" enhances interactive learning by allowing students to study materials with their favorite characters in both voice and image formats, making learning more engaging and enjoyable.
 
 ---
 
 ### Image Formats and Resolutions
 
-- **Image Format:** Portable Network Graphic (PNG)
+- **Format:** PNG
 - **Bits Per Pixel:** 32
 - **Color:** Truecolor with alpha
-- **Dimensions:** Various resolutions (e.g., 1431x954, 691x470, 727x334)
+- **Dimensions:** Various (e.g., 1431x954, 691x470, 727x334)
 - **Interlaced:** Yes
 - **XResolution:** Various (e.g., 220, 100, 96)
 - **YResolution:** Various (e.g., 220, 100, 96)
 
-Software used for generating images:
+**Software for Image Generation:**
 - **Matplotlib version:** 3.9.0 [Matplotlib](https://matplotlib.org/)
