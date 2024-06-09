@@ -17,7 +17,6 @@
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/deef738f-3af8-404c-bd76-98b72611d837" alt="Hather System Diagram" width="800">
 
 #### Setup and Usage
-**First Day Setup:**
 1. Upload a video of the students to the system, and The system classifies the students' pictures into folders.
 2. Name the folders with the students' names.
 
@@ -48,11 +47,11 @@ After the initial setup, the system will automates student attendance throughout
 **Results:**
 - **Face Detection Model:**
   
-  <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="YOLO PR curve" width="500">
+  <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/3a4fcf6b-5f13-41ca-a32e-11d118bbeaa1" alt="YOLO PR curve" width="800">
 
 - **Classification Model Comparison:**
   
-  <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Model comparison" width="500">
+  <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/cbc9e4f2-6e98-43d0-94ae-ff2715a2a0b7" alt="Model comparison" width="800">
 
 **Tools Used:**
 - YOLO
@@ -69,13 +68,13 @@ After the initial setup, the system will automates student attendance throughout
 - Calculates a focus score based on eye position analysis.
 
 #### Main Components
-![Rkkez System Diagram](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/8aaf4fdd-4d26-4f6f-a906-94a73ecd5e49)
+<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/8aaf4fdd-4d26-4f6f-a906-94a73ecd5e49" alt="Rkkez System Diagram" width="800">
 - Eye and iris feature detection.
 - Eye closure duration detection.
 - Focus score calculation.
 
 **Tools Used:**
-![image](https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/38815154-70b1-4e9f-ae88-44fe99cd842e)
+<img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/38815154-70b1-4e9f-ae88-44fe99cd842e" alt="Tools used" width="800">
 
 ## Future Work
 ### 3. Fahem
