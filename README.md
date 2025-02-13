@@ -9,6 +9,9 @@
 ## 1. Hadir (حاضر)
 "Hadir" automates student attendance using facial recognition technology. When a student enters the classroom, their face is recognized, and their attendance is recorded automatically.
 
+### Demo:
+https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/2c3e6b90-7c14-4999-8cea-e56f9606f398
+
 <img src="https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/19c44f09-d615-423c-9e84-12d36f71efec" alt="Hather system screenshot" width="800"  height="600">
 
 <br>
@@ -72,9 +75,6 @@ After the initial setup, the system will automates student attendance throughout
 
 
 
-
-### Demo:
-https://github.com/HESHAM-SA/Capstone-Project-Majed-/assets/62900612/2c3e6b90-7c14-4999-8cea-e56f9606f398
 
 
 
